@@ -1,0 +1,7 @@
+# Made by alpharr 02/22/2020
+command /sniff [<player>]:
+  trigger:
+    if arg 1 is not set:
+      broadcast "&d&o%player% &5just sniffed uwu"
+    if arg 1 is set:
+      broadcast "&d&o%arg 1% &5got sniffed by &d&o%player%"
