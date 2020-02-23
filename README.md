@@ -1,4 +1,3 @@
-Sniff Command. 
+Minecraft Scripts
 Made by alpharr
 ------------------------
-Don't ask me why i did this lmao
