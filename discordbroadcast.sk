@@ -1,0 +1,4 @@
+# AutoBroadcast your Discord Server! 
+# Made by alpharr
+every 3 minutes:
+	broadcast "&7[&bDiscord&7] &bJoin our discord! put invite link here"
