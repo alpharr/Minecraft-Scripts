@@ -1,4 +1,7 @@
 # AutoBroadcast your Discord Server! 
 # Made by alpharr
+options:
+	link: discord.gg/devs
+
 every 3 minutes:
-	broadcast "&7[&bDiscord&7] &bJoin our discord! put invite link here"
+	broadcast "&7[&bDiscord&7] &bJoin our discord! {@link}"
