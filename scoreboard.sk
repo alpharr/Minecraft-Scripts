@@ -1,0 +1,16 @@
+#                    s c o r e b o a r d 
+#                        s c r i p t 
+#                      made by: alphar 
+#
+every 2 second:
+	loop all players:
+		wipe loop-player's sidebar
+		set name of sidebar of loop-player to "&a_-_-_-&aSer&2ver &aGamemode_-_-_-"
+		set score "              &a-&2-&f+&2-&a-" in sidebar of loop-player to 0
+		set score "  &2User: &7%loop-player%" in sidebar of loop-player to 0
+		set score "  &2Message" in sidebar of loop-player to 0
+		set score "  &2Message" in sidebar of loop-player to 0
+#
+#
+# to add more lines just do
+# set score "put message here" in side bar of loop-player to 0
