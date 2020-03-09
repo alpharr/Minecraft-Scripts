@@ -1,0 +1,13 @@
+#    ClearChat Script
+#    Made by Alphar
+#    03/08/2020
+command /clearchat:
+    aliases: /cc
+    permission: skript.clearchat
+    permission message: &cSorry, but you can't execute this command!
+    trigger:
+        loop 300 times:
+            broadcast ""
+        wait 1 tick
+        broadcast "&aThe chat has been cleared by &2%player%"
+        stop
