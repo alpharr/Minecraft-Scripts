@@ -1,0 +1,6 @@
+/orangejustice [<player>]:
+	trigger:
+		if arg 1 is not set:
+			send "&6&o%player% &ejust orange justiced."
+		if arg 1 is set:
+			send "&6&o%arg1% got orange justiced like a zoomer by &6&o%player%"
