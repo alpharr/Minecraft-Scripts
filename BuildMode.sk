@@ -1,0 +1,25 @@
+variables:
+	{buildMode.%player%} = false
+
+command /build [<text>]: 
+	permission: buildmode.use
+	permission message: §cYou don't have permission to use this command
+	description: A command to enable or disable build mode
+	trigger: 
+		if {buildMode.%player%} is false:
+			send "§a§lSer§2§lVer §2» §aBuild mode has been enabled"
+			set {buildMode.%player%} to true
+			stop
+			
+		if {buildMode.%player%} is true:
+			send "§a§lSer§2§lVer §2» §aBuild mode has been disabled"
+			set {buildMode.%player%} to false 
+			stop 
+			
+on place:
+	if {buildMode.%player%} is false:
+		cancel event 
+		
+on break: 
+	if {buildMode.%player%} is false:
+		cancel event
