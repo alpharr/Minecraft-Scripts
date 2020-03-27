@@ -1,0 +1,5 @@
+command /online [<text>]:
+	permission: online.see
+	permission message: &cYou aren't allowed to execute this command.
+	trigger:
+		send "&aThere are %number of all players% players online!"
